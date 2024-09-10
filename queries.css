@@ -234,6 +234,10 @@
   }
 }
 @media (max-width: 27em) {
+  .header {
+    padding: 0;
+    gap: 0rem;
+  }
   .home-img {
     height: 100%;
     width: 100%;
@@ -276,6 +280,7 @@
   }
   .section-blog {
     padding-bottom: 10rem;
+    padding-left: 0;
   }
   .container-blog {
     background: url("Cards/1.png");
