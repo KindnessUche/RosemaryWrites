@@ -82,6 +82,9 @@
   section {
     margin: 0;
   }
+  .section-home {
+    min-height: 80rem;
+  }
   .section-bio {
     padding-top: 20rem;
     height: 1100px;
@@ -89,6 +92,9 @@
   .bio-text-box {
     /* align-self: flex-end; */
     font-size: 10rem;
+  }
+  .bio-about p {
+    font-size: 1.8rem;
   }
   .footer {
     gap: 5rem;
@@ -303,8 +309,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: flex-start;
-    padding: 0;
-    padding-right: 4rem;
+    padding-bottom: 15rem;
+    /* padding-right: 4rem; */
   }
   .blog-photos {
     /* display: flex;
@@ -316,11 +322,13 @@
     background: none;
   }
   .main-blog {
-    width: 60%;
+    width: 100%;
     height: 100%;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(1px);
     background-color: #ffffff3f;
+    padding-top: 10rem;
     padding-left: 4rem;
+    padding-bottom: 4rem;
   }
   .main-blog h4 {
     color: black !important;
